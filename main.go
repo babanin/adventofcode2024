@@ -1,7 +1,7 @@
 package main
 
 import (
-	"adventofcode/day2"
+	"adventofcode/day3"
 	"os"
 )
 
@@ -12,5 +12,5 @@ func main() {
 	}
 	defer file.Close()
 
-	day2.Solve(file, os.Stdout)
+	day3.Solve(file, os.Stdout)
 }
